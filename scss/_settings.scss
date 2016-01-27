@@ -47,19 +47,18 @@
 // ------------
   $uthsc-green: #006a4d;
   $uthsc-orange: #f77f00;
-  $uthsc-green-success: #3ea22f;
-  $uthsc-red-alert: #b5121b;
+  $uthsc-green-light: #3ea22f;
+  $uthsc-red: #b5121b;
   $uthsc-yellow: #e8cf00;
   $uthsc-blue: #00a5e3;
   $uthsc-purple: #7a68ae;
   $uthsc-burnt-orange: #b06010;
-  $uthsc-grey-dark: #ced0b4;
-  $uthsc-grey-light: #e9e3dc;
+  $uthsc-gray-dark: #ced0b4;
+  $uthsc-gray-light: #e9e3dc;
 
-  $emergency: $uthsc-red-alert;
+  $emergency: $uthsc-red;
   $uthsc-first-bookend-color: #333;
   $uthsc-second-bookend-color: #EFEFEF;
-  $uthsc-call-to-action: $uthsc-blue;
 
 $global-width: rem-calc(1200);
 $global-font-size: 100%;
@@ -67,11 +66,11 @@ $global-lineheight: 1.5;
 //$primary-color: #2199e8;
   $primary-color: $uthsc-green;
 //$secondary-color: #777;
-  $secondary-color: $uthsc-call-to-action;
+  $secondary-color: $uthsc-blue;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 //$alert-color: #ec5840;
-  $alert-color: $uthsc-red-alert;
+  $alert-color: $uthsc-red;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
@@ -272,7 +271,8 @@ $buttongroup-expand-max: 6;
 // 13. Callout
 // -----------
 
-$callout-background: $white;
+//$callout-background: $white;
+  $callout-background: $uthsc-gray-light;
 $callout-background-fade: 85%;
 $callout-border: 1px solid rgba($black, 0.25);
 $callout-margin: 0 0 1rem 0;
