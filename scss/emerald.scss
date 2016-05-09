@@ -1,3 +1,14 @@
+/*
+ |--------------------------------------------------------------------------
+ | Emerald imports
+ |--------------------------------------------------------------------------
+ |
+ | Emerald is where we keep all of our global uthsc settings and components and import foundation
+ | It is added as a dependency on a per-project basis, so nothing should be included here
+ | Import this file and include specific components in your project's main scss file
+ |
+ */
+
 @import 'settings';
 @import 'foundation-sites/scss/foundation';
 @import 'motion-ui/motion-ui';
