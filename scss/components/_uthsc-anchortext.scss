@@ -27,8 +27,8 @@
   //fix background on footer-top
   .uthsc-content-footer {
     p a, li a, , figcaption a {
-    text-shadow: -1px 0 0 $uthsc-content-footer-background, 1px 0 0 $uthsc-content-footer-background !important;
-  }
+      text-shadow: -1px 0 0 $uthsc-content-footer-background, 1px 0 0 $uthsc-content-footer-background !important;
+    }
   }
 
   //Reset mobile tabs
