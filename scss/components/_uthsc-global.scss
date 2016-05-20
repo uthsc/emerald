@@ -28,13 +28,16 @@
 
   .page-opening {
     text-align:center;
-    font-weight: bold;
 
     .page-intro {
-      color: $uthsc-green;
-
+      color: #006a4d;
       font-size: 1.5em;
-      padding:1rem;
+      font-weight: 600;
+      line-height: inherit;
+      font-style: normal;
+      padding: 1rem;
+      margin-bottom: 0;
+      font-family: "Open Sans", sans-serif;
     }
 
     .page-lead {
