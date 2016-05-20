@@ -27,9 +27,10 @@
       color: $dark-gray;
       font-size: 1.1em;
       padding:1rem;
+      line-height: 1.4em;
 
       @media #{$medium-up} {
-        line-height: 1.4em;
+        line-height: 1.6em;
       }
     }
   }
