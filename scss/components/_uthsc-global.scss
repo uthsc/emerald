@@ -26,6 +26,24 @@
     margin-bottom: 1rem;
   }
 
+  .page-opening {
+    text-align:center;
+    font-weight: bold;
+
+    .page-intro {
+      color: $uthsc-green;
+
+      font-size: 1.5em;
+      padding:1rem;
+    }
+
+    .page-lead {
+      color: $dark-gray;
+      font-size: 1.1em;
+      padding:1rem;
+    }
+  }
+
   /* Add padding to floated images */
   .left img, figure.left {
     margin-right: 1em;
