@@ -1,0 +1,34 @@
+////
+/// @group highlight box
+////
+
+/// Adds styles for a top bar container.
+@mixin uthsc-highlight-box {
+  .uthsc-highlight-box {
+    background:#fff;
+    display:block;
+    padding:.5em;
+    margin: 1em 0;
+
+    h3 {
+      font-size:1.4em;
+      font-weight: bold;
+    }
+
+    a p {
+      color: #0a0a0a;
+      font-weight:normal;
+    }
+
+    &:hover {
+      background: #4268AD;
+      transition: 500ms;
+
+      a, p {
+        color:#fff;
+        transition: 200ms;
+      }
+    }
+  }
+}
+
