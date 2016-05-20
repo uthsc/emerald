@@ -26,27 +26,6 @@
     margin-bottom: 1rem;
   }
 
-  .page-opening {
-    text-align:center;
-
-    .page-intro {
-      color: #006a4d;
-      font-size: 1.5em;
-      font-weight: 600;
-      line-height: inherit;
-      font-style: normal;
-      padding: 1rem;
-      margin-bottom: 0;
-      font-family: "Open Sans", sans-serif;
-    }
-
-    .page-lead {
-      color: $dark-gray;
-      font-size: 1.1em;
-      padding:1rem;
-    }
-  }
-
   /* Add padding to floated images */
   .left img, figure.left {
     margin-right: 1em;
