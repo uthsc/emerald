@@ -15,8 +15,26 @@ $uthsc-global-footer-background: $uthsc-first-bookend-color !default;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
   }
-  .uthsc-copy-block p {
-    margin: 1rem;
+
+  a {
+    color: #fff;
+    font-weight: 300;
+    &:hover {
+      color: $uthsc-blue-dark;
+    }
+  }
+
+  .uthsc-copy-block {
+    ul, p {
+      margin: 2rem;
+      font-weight: 300;
+    }
+    ul {
+      list-style: none;
+      li {
+        font-weight: 300;
+      }
+    }
   }
 
   .uthsc-footer-button {
@@ -83,6 +101,7 @@ $uthsc-global-footer-background: $uthsc-first-bookend-color !default;
 
   }
 }
+
 @mixin uthsc-global-footer {
   .uthsc-global-footer {
     @include uthsc-global-footer-styles;
