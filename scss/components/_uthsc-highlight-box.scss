@@ -6,36 +6,66 @@
 @mixin uthsc-highlight-box {
   .uthsc-highlight-box {
 
-    overflow: hidden;
-    background: #fff;
-    margin: 1em 0;
-    display:block;
-    padding:.5em;
-
-    .uthsc-highlight-box-title {
-      font-size:1.4em;
-      font-weight: bold;
-      color: #00a5e3;
+    @mixin uthsc-highlight-box-color($color) {
+      .uthsc-highlight-box-title { p { color: $color; } }
+      &:hover { background: $color; }
     }
 
-    a p {
-      color: #0a0a0a;
-      font-weight:normal;
+    &.uthsc-highlight-box-green {
+      @include uthsc-highlight-box-color($uthsc-green-light);
+    }
+
+    &.uthsc-highlight-box-purple {
+      @include uthsc-highlight-box-color($uthsc-purple);
+    }
+
+    background: #fff;
+    margin: 1em 0;
+
+    & > a {
+      color: initial;
+      font-weight: normal;
+    }
+
+    .uthsc-highlight-box-image {
+      overflow:hidden;
+      img {
+        transition: all 0.5s ease;
+      }
+    }
+
+    .uthsc-highlight-box-title {
+      padding: 1rem 2rem;
+      p {
+        font-size: 1.3em;
+        font-weight: normal;
+        text-align: center;
+        color: $uthsc-blue-dark
+      }
+    }
+
+    .uthsc-highlight-box-description {
+      padding: 0 2rem 1rem;
     }
 
     &:hover {
+      background: $uthsc-blue-dark;
 
-      .uthsc-highlight-box-title {
-        color:#fff;
+      .uthsc-highlight-box-title p {
+        color: #fff;
       }
 
-      background: #00a5e3;
-      transition: 500ms;
+      .uthsc-highlight-box-description p {
+        color: #fff;
+      }
 
-      a, p {
-        color:#fff;
-        transition: 200ms;
+      .uthsc-highlight-box-image img {
+        transform: scale(1.1) rotate(-3deg);
+        transition: all 0.5s ease;
       }
     }
   }
 }
+
+
+
