@@ -3,6 +3,8 @@
 
     p a, li a, figcaption a, .anchortext {
       text-decoration: none;
+      text-shadow: -1px 0 0 white, 1px 0 0 white;
+      padding: 1px 0;
 
       background-image: linear-gradient(to top,
               rgba(0,0,0,0) 13%,
@@ -18,10 +20,18 @@
                 rgba(0,0,0,0) 18%
         );
       }
-      text-shadow: -1px 0 0 white, 1px 0 0 white;
-      padding: 1px 0;
-    }
 
+      //fix for buttons
+      .button {
+        text-shadow: none;
+        padding: 0.85em 1em;
+        background-image: none;
+
+        &:hover {
+          background-image: none;
+        }
+      }
+    }
   }
 
   //fix background on footer-top
