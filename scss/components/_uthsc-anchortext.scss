@@ -7,22 +7,22 @@
       padding: 1px 0;
 
       background-image: linear-gradient(to top,
-              rgba(0,0,0,0) 13%,
-              rgba(0,0,0,.3) 13%,
-              rgba(0,0,0,.3) 18%,
-              rgba(0,0,0,0) 18%
+              rgba(0, 0, 0, 0) 13%,
+              rgba(0, 0, 0, .3) 13%,
+              rgba(0, 0, 0, .3) 18%,
+              rgba(0, 0, 0, 0) 18%
       );
-      &:hover{
+      &:hover {
         background-image: linear-gradient(to top,
-                rgba(0,0,0,0) 13%,
-                rgba(0,106,77,1) 13%,
-                rgba(0,106,77,1) 18%,
-                rgba(0,0,0,0) 18%
+                rgba(0, 0, 0, 0) 13%,
+                rgba(0, 106, 77, 1) 13%,
+                rgba(0, 106, 77, 1) 18%,
+                rgba(0, 0, 0, 0) 18%
         );
       }
 
       //fix for buttons
-      .button {
+      &.button {
         text-shadow: none;
         padding: 0.85em 1em;
         background-image: none;
@@ -36,22 +36,21 @@
 
   //fix background on footer-top
   .uthsc-content-footer {
-    p a, li a, , figcaption a {
+    p a, li a, figcaption a {
       text-shadow: -1px 0 0 $uthsc-content-footer-background, 1px 0 0 $uthsc-content-footer-background !important;
     }
   }
 
   //Reset mobile tabs
   .tabs .tabs-title a {
-    background-image:none;
+    background-image: none;
     text-shadow: none;
 
     &:hover {
-      background-image:none;
+      background-image: none;
       text-shadow: none;
     }
 
   }
-
 }
 
