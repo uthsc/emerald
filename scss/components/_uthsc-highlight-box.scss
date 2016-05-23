@@ -5,28 +5,25 @@
 /// Adds styles for a top bar container.
 @mixin uthsc-highlight-box {
   .uthsc-highlight-box {
-    background:#fff;
-    display:block;
-    padding:.5em;
+    overflow: hidden;
+    background: #fff;
     margin: 1em 0;
 
     h3 {
-      font-size:1.4em;
+      font-size: 1.4em;
       font-weight: bold;
-    }
-
-    a p {
-      color: #0a0a0a;
-      font-weight:normal;
+      padding: 1rem 2rem;
+      text-align: center;
     }
 
     &:hover {
-      background: #4268AD;
-      transition: 500ms;
+      background: #3ea22f;
 
-      a, p {
-        color:#fff;
-        transition: 200ms;
+      img {
+        font-size: 1.4em;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        text-align: center;
       }
     }
   }
