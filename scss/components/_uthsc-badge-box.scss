@@ -1,0 +1,12 @@
+@mixin uthsc-badge-box {
+  .uthsc-badge-box {
+
+    text-align:center;
+
+    .uthsc-badge-box-icon {
+      padding-bottom: 2em;
+    }
+
+    .uthsc-badge-box-text {}
+  }
+}
