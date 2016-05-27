@@ -1,12 +1,18 @@
 @mixin uthsc-badge-box {
   .uthsc-badge-box {
-
-    text-align:center;
-
     .uthsc-badge-box-icon {
-      padding-bottom: 2em;
+      span.fa {
+        position:relative;
+        margin: 0 auto;
+        svg {
+          overflow: hidden;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          fill: #fff;
+          opacity: .3;
+        }
+      }
     }
-
-    .uthsc-badge-box-text {}
   }
 }
