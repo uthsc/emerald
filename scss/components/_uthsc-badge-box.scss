@@ -27,9 +27,14 @@
         height: 100px;
         line-height: 100px;
         text-align: center;
+        font-size: 4.8em;
         //if circle
         //font-size: 4em;
       }
+    }
+    .uthsc-badge-box-text {
+      max-width: 250px;
+      margin: 0 auto;
     }
   }
 }
