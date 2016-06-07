@@ -17,6 +17,53 @@
   justify-content: space-between;
 }
 
+@mixin uthsc-list-style {
+  ul {
+    list-style: none;
+    left: 0;
+    margin-left: 0;
+    text-indent: -.7em;
+
+    li {
+      line-height: 1.3em;
+      padding: .3em;
+      margin-left: .4em;
+      left: 0;
+
+      &:before {
+        content: "\203A \0020";
+        list-style: none;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+//reset for list styles above
+//not being used - may need some tweaks
+@mixin  uthsc-list-style-reset {
+  ul {
+    list-style: none;
+    left: 0;
+    margin-left: initial;
+    text-indent: initial;
+
+    li {
+      line-height: initial;
+      padding: initial;
+      margin-left: initial;
+      left: 0;
+
+      &:before {
+        content: ""; //
+        list-style: none;
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+
 @mixin uthsc-global {
 
   .uthsc-row-title {
@@ -106,6 +153,10 @@
     ol {
       list-style-type: lower-roman;
     }
+  }
+
+  .main-content, .uthsc-content-footer {
+    @include uthsc-list-style;
   }
 
   //temporary: hard-code nested-row fix
