@@ -63,6 +63,32 @@
   }
 }
 
+@mixin tabs-list-style-fix {
+  ul.tabs {
+    list-style: none;
+    left: 0;
+    margin-left: initial;
+    text-indent: initial;
+    margin-right: initial;
+
+    li {
+      line-height: initial;
+      padding: initial;
+      margin-left: initial;
+      left: 0;
+
+      &:before {
+        content: ""; //
+        list-style: none;
+        font-size: 1.2em;
+      }
+
+      &.tabs-title>a {
+        padding: 1.25rem 1.5rem;
+      }
+    }
+  }
+}
 
 @mixin uthsc-global {
 
@@ -157,6 +183,7 @@
 
   .main-content, .uthsc-content-footer {
     @include uthsc-list-style;
+    @include tabs-list-style-fix;
   }
 
   //temporary: hard-code nested-row fix
