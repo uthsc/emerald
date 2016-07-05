@@ -2,10 +2,10 @@
   .background-stripe {
     .callout {
       background-color: rgba(225,225,225,.90);
-      .secondary {
+      &.secondary {
         background-color: rgba(213,243,255,.90);
       }
-      .warning {
+      &.warning {
         background-color: rgba(255,243,217,.90);
       }
     }
