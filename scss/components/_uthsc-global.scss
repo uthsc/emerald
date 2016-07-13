@@ -3,15 +3,18 @@
   display: flex;
   align-items: center;
 }
+
 @mixin uthsc-horizontal-center {
   display: flex;
   justify-content: center;
 }
+
 @mixin uthsc-horizontal-spaced {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
 }
+
 @mixin uthsc-horizontal-justify {
   display: flex;
   justify-content: space-between;
@@ -222,14 +225,14 @@
   //temporary: hard-code nested-row fix
   //https://github.com/zurb/foundation-sites/pull/8889
   .row .row {
-    max-width:75rem;
+    max-width: 75rem;
   }
 
   //search form margins
   .search-form {
-    margin-bottom:0;
+    margin-bottom: 0;
   }
   .uthsc-banner .search-form {
-    margin-bottom:1em;
+    margin-bottom: 1em;
   }
 }
