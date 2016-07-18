@@ -9,11 +9,24 @@ $uthsc-news-box: $uthsc-green !default;
 /// Adds styles for a top bar container.
 @mixin uthsc-news-box {
   .uthsc-news-box {
-    background: $uthsc-green;
-    color:#fff;
+
+    .uthsc-news-box-dark &{
+      background: $uthsc-green;
+      color:#fff;
+
+      a {color:#fff;}
+
+      &:hover {
+        background: $uthsc-green-dark;
+        transition: 500ms;
+      }
+    }
+
     padding:1em 0;
     transition:500ms;
     margin: .5em 0;
+
+
 
     h4 {
       font-size:1em;
@@ -21,12 +34,14 @@ $uthsc-news-box: $uthsc-green !default;
     }
 
     &:hover {
-      background: $uthsc-green-dark;
+      background: $uthsc-green;
       transition: 500ms;
+      color:#fff;
+
+      a {color:#fff;}
     }
 
     a{
-      color:#fff;
       display: block;
 
       p{
