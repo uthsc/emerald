@@ -1,4 +1,4 @@
-@mixin uthsc-list-style {
+@mixin list-styles {
   ul:not(.vertical, .tabs) {
     list-style: none;
     left: 0;
@@ -49,15 +49,19 @@
     }
 
   }
-}
 
-ol ol {
-  list-style-type: lower-alpha;
-  ol {
-    list-style-type: lower-roman;
+  ol ol {
+    list-style-type: lower-alpha;
+    ol {
+      list-style-type: lower-roman;
+    }
   }
 }
 
-.main-content, .uthsc-content-footer {
-  @include uthsc-list-style;
+@mixin uthsc-list-styles() {
+  .main-content, .uthsc-content-footer {
+    @include list-styles;
+  }
 }
+
+
