@@ -1,5 +1,5 @@
 @mixin list-styles {
-  ul:not(.tabs, .accordion) {
+  ul:not(.tabs, .accordion, .vertical.menu) {
     list-style: none;
     left: 0;
     margin-left: 0;
