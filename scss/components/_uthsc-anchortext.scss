@@ -1,7 +1,7 @@
 @mixin uthsc-anchortext {
-  .main-content:not(.tabs .tabs-title, accordion .accordion-title),
+  .main-content,
   .uthsc-content-footer {
-    p a, li a, figcaption a, .anchortext {
+    p a, li:not(.tabs-title, .accordion-item, .is-drilldown-submenu-parent, .is-drilldown-submenu-item, .js-drilldown-back) a, figcaption a, .anchortext {
       text-decoration: none;
       text-shadow: -1px 0 0 white, 1px 0 0 white;
       padding: 1px 0;
@@ -52,4 +52,3 @@
     }
   }
 }
-
