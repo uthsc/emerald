@@ -1,11 +1,11 @@
 @mixin list-styles {
-  ul:not(.tabs, .accordion, .vertical.menu) {
+  ul:not(#uthsc-map-menu-drilldown, .uthsc-map-list) {
     list-style: none;
     left: 0;
     margin-left: 0;
     text-indent: -.7em;
 
-    & > li, & > ul li {
+    & > li:not(.tabs-title, .accordion-item, .is-drilldown-submenu-parent), & > ul li {
       line-height: 1.3em;
       padding: .3em;
       margin-left: .4em;
