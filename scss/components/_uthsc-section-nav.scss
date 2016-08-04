@@ -72,7 +72,7 @@ $uthsc-section-nav-border: scale-color($uthsc-breadcrumbs-background, $lightness
       display:block;
 
       &:hover {
-        background: $uthsc-blue-dark;
+        background: $uthsc-blue-dark !important;
       }
     }
 
