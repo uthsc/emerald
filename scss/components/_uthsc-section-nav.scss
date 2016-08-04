@@ -169,6 +169,7 @@ $uthsc-section-nav-border: scale-color($uthsc-breadcrumbs-background, $lightness
       @include uthsc-element-invisible;
     }
 
+    @include uthsc-nav-on;
 
   }
 
