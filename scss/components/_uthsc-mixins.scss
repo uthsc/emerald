@@ -30,3 +30,9 @@
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
 }
+
+@mixin uthsc-nav-on {
+  .uthsc-nav-on > a {
+    background: scale-color($uthsc-blue, $lightness: -25%);
+  }
+}

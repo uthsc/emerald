@@ -110,9 +110,6 @@ $uthsc-green-dark : darken($uthsc-green, 5% );
 
   .link-heading {
     background:$light-oil;
-    color: $white;
-    border-bottom: 1px solid $black;
-    @include off-canvas-link-padding;
   }
 
   li a {
@@ -244,6 +241,9 @@ $uthsc-green-dark : darken($uthsc-green, 5% );
     background-color: $uthsc-offcanvas-background;
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
+
+    @include uthsc-nav-on;
+
   }
 
   .uthsc-off-canvas-menu__items {
