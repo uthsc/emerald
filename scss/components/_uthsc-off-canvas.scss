@@ -112,7 +112,7 @@ $uthsc-green-dark : darken($uthsc-green, 5% );
     background:$light-oil;
   }
 
-  li a {
+  li a, li .link-heading {
     color: $white;
     border-bottom: 1px solid $black;
     @include off-canvas-link-padding;
