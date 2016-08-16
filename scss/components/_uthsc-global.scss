@@ -67,6 +67,28 @@
       font-style: normal;
     }
   }
+
+  $header-sizes: (
+          small: (
+                  'h1': 40,
+                  'h2': 32,
+                  'h3': 28,
+                  'h4': 24,
+                  'h5': 20,
+                  'h6': 16,
+          ),
+  ) !default;
+  // Heading sizes
+  @each $size, $headers in $header-sizes {
+    @include breakpoint($size) {
+      @each $header, $font-size in $headers {
+        #{$header} {
+          font-size: rem-calc($font-size);
+        }
+      }
+    }
+  }
+
   figure {
     border: 1px solid #bababa;
     border-radius: 0 0 3px 3px;
