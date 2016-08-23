@@ -7,7 +7,7 @@
 @mixin mime-icon($type, $unicode, $target: "$") {
   a[href#{$target}="#{$type}"]:after {
     font-family: "FontAwesome";
-    content: " #{$unicode}";
+    content: "\00a0#{$unicode}";
     font-weight:normal;}
 }
 
