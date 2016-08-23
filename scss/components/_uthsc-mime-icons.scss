@@ -19,4 +19,7 @@
 
   @include mime-icon("xls", "\f1c3");
   @include mime-icon("xlsx", "\f1c3");
+
+  @include mime-icon("ppt", "\f1c4");
+  @include mime-icon("pptx", "\f1c4");
 }
