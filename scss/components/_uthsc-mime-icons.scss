@@ -13,6 +13,7 @@
 
 @mixin uthsc-mime-icons {
   @include mime-icon("pdf", "\f1c1");
+  @include mime-icon("pdf*", "\f1c1");
 
   @include mime-icon("doc", "\f1c2");
   @include mime-icon("docx", "\f1c2");
