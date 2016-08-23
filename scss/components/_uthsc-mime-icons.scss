@@ -23,4 +23,10 @@
 
   @include mime-icon("ppt", "\f1c4");
   @include mime-icon("pptx", "\f1c4");
+
+  //reset for links with the image-link
+  //class added to links that have an image (see js)
+  a.image-link:after {
+    content: "";
+  }
 }
