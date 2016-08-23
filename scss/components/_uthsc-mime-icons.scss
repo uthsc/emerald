@@ -25,7 +25,7 @@
 
   //reset for links with the image-link
   //class added to links that have an image (see js)
-  a.image-link:after {
+  a.uthsc-image-link:after {
     content: "";
   }
 }
