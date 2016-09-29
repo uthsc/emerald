@@ -100,6 +100,7 @@ $uthsc-section-nav-border: scale-color($uthsc-breadcrumbs-background, $lightness
       & > a {
         //width:100%;
         @include vertical-center-flex-box;
+        flex-direction: row;
         font-weight: bold;
         font-size: 1rem;
       }
