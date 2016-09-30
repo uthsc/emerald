@@ -113,4 +113,9 @@
     font-size: 1.2em;
     font-style: italic;
   }
+
+  //add background to active accordion title
+  .accordion-item.is-active .accordion-title {
+    background-color: #e6e6e6;
+  }
 }
