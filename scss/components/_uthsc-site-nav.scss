@@ -15,7 +15,8 @@ $uthsc-site-nav-padding: 0rem !default;
 /// @type Color
 $uthsc-site-nav-background: $uthsc-first-bookend-color !default;
 
-$uthsc-site-nav-background-hover: scale-color($uthsc-blue, $lightness: -20%);
+//$uthsc-site-nav-background-hover: scale-color($uthsc-blue, $lightness: -20%);
+$uthsc-site-nav-background-hover: scale-color($primary-color, $lightness: -20%); //breast-cancer-awareness
 
 /// Color for links inside a uthsc-site-nav menu.
 /// @type Color
