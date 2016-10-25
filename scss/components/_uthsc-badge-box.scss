@@ -2,24 +2,10 @@
   .uthsc-badge-box {
     margin-bottom: 2rem;
     .uthsc-badge-box-icon {
-      width: 8em;
-      height: 7em;
-      margin: 0 auto;
-      position: relative;
       display:flex;
       align-items: center;
       justify-content: center;
       color: $uthsc-green;
-
-      svg {
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        fill: #fff;
-        opacity: .3;
-        right:0;
-      }
 
       span.fa {
         margin: 0 auto;
