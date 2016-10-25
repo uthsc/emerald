@@ -1,5 +1,6 @@
 @mixin uthsc-badge-box {
   .uthsc-badge-box {
+    margin-bottom: 2rem;
     .uthsc-badge-box-icon {
       width: 8em;
       height: 8em;
@@ -30,9 +31,6 @@
       max-width: 250px;
       margin: 0 auto;
       text-align:center;
-    }
-    .uthsc-badge-box {
-      margin-bottom: 2rem;
     }
   }
 }
