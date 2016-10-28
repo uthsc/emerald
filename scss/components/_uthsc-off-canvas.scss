@@ -97,7 +97,7 @@ $uthsc-green-dark : darken($uthsc-green, 5% );
   //make a gift
   //take a tour
   .call-to-action-link {
-    background: $uthsc-green;
+    background: $primary-color;
     color:$white;
     @include off-canvas-link-padding;
   }
@@ -155,11 +155,11 @@ $uthsc-green-dark : darken($uthsc-green, 5% );
     background-size: 89%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: $uthsc-green;
+    background-color: $primary-color;
     opacity: 0.4;
   }
   .nav-toggler {
-    background: $uthsc-green;
+    background: $primary-color;
     height: 44px;
   }
   .toggle-slide-left {

@@ -11,7 +11,7 @@ $uthsc-news-box: $uthsc-green !default;
   .uthsc-news-box {
 
     .uthsc-news-box-dark &{
-      background: $uthsc-green;
+      background: $primary-color;
       color:#fff;
 
       a {color:#fff;}
@@ -34,7 +34,7 @@ $uthsc-news-box: $uthsc-green !default;
     }
 
     &:hover {
-      background: $uthsc-green;
+      background: $primary-color;
       transition: 500ms;
       color:#fff;
 

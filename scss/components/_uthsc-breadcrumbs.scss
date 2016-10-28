@@ -57,9 +57,9 @@ $uthsc-breadcrumbs-background: darken($primary-color, 10%) !default;
 
   }
   .uthsc-off-canvas-breadcrumbs {
-    color: $uthsc-green;
+    color: $primary-color;
     a {
-      color: $uthsc-green !important;
+      color: $primary-color !important;
       border-bottom: none !important;
     }
 
