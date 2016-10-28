@@ -24,6 +24,10 @@ $uthsc-banner-background: $uthsc-green !default;
     padding:1em;
     width: 100%;
   }
+
+  .uthsc-banner-homepage{
+    border-bottom: 1px solid $uthsc-banner-homepage-border;
+  }
 }
 
 @mixin uthsc-banner {
