@@ -88,12 +88,6 @@
     }
   }
 
-  //temporary: hard-code nested-row fix
-  //https://github.com/zurb/foundation-sites/pull/8889
-  .row .row {
-    max-width: 75rem;
-  }
-
   //search form margins
   .search-form {
     margin-bottom: 0;
