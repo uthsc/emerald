@@ -22,7 +22,7 @@ $section-nav-link-color: #000 !default;
 /// @type Number
 $section-nav-input-width: 200px !default;
 
-$uthsc-section-nav-border: scale-color($uthsc-breadcrumbs-background, $lightness: -20%);
+$uthsc-section-nav-border: scale-color($uthsc-breadcrumbs-background, $lightness: -15%);
 
 /// Adds styles for a top bar container.
 @mixin section-nav-container {
