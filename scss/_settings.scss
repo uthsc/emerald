@@ -47,18 +47,18 @@
 
 // UTHSC Colors
 // ------------
-//$uthsc-green: #006a4d;
-$uthsc-green: #c5006e; //breast-cancer-awareness
-$uthsc-orange: #f77f00;
-$uthsc-green-light: #3ea22f;
-$uthsc-red: #b5121b;
-$uthsc-yellow: #e8cf00;
-$uthsc-blue: #00a5e3;
-$uthsc-blue-dark: #0084b6;
-$uthsc-purple: #7a68ae;
-$uthsc-burnt-orange: #b06010;
-$uthsc-gray-dark: #767676;
-$uthsc-gray-light: #e9e3dc;
+  $uthsc-green: #006a4d;
+  //$uthsc-green: #c5006e; //breast-cancer-awareness
+  $uthsc-orange: #f77f00;
+  $uthsc-green-light: #3ea22f;
+  $uthsc-red: #b5121b;
+  $uthsc-yellow: #e8cf00;
+  $uthsc-blue: #00a5e3;
+  $uthsc-blue-dark: #0084b6;
+  $uthsc-purple: #7a68ae;
+  $uthsc-burnt-orange: #b06010;
+  $uthsc-gray-dark: #767676;
+  $uthsc-gray-light: #e9e3dc;
 
 $emergency: $uthsc-red;
 $uthsc-first-bookend-color: #333;
@@ -93,7 +93,7 @@ $global-lineheight: 1.5;
 
 $foundation-palette: (
   //primary: #2199e8,
-        primary: $uthsc-orange,
+  primary: $uthsc-green,
   //secondary: #777,
         secondary: $uthsc-blue,
         success: #3adb76,
