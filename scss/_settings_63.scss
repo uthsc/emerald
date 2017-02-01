@@ -304,7 +304,7 @@ $button-fill: solid;
 $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
-$button-color-alt: $white;
+$button-color-alt: $black;
 $button-radius: $global-radius;
 $button-sizes: (
   tiny: 0.6rem,
@@ -633,7 +633,8 @@ $tab-item-padding: 1.25rem 1.5rem;
 $tab-expand-max: 6;
 $tab-content-background: $white;
 $tab-content-border: $light-gray;
-$tab-content-color: $body-font-color;
+//$tab-content-color: $body-font-color;
+$tab-content-color: $primary-color;
 $tab-content-padding: 1rem;
 
 // 34. Thumbnail
