@@ -117,3 +117,14 @@
     border-spacing: 0;
   }
 }
+
+// add space before target when dropping down a page for an anchor link
+// to prevent hiding it behind the sticky uthsc-section-nav on large
+@include breakpoint(large) {
+  :target:before {
+    content: "";
+    display: block;
+    height: 83px; /* fixed header height*/
+    margin: -83px 0 0 0; /* negative fixed header height */
+  }
+}
