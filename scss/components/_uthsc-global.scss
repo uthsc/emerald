@@ -29,22 +29,71 @@
     margin-bottom: 1rem;
   }
 
+  figure {
+    margin: 0;
+    figcaption {
+      font-size: 0.85em;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.5;
+      &.thumbnail {
+        border: 1px solid #bbb;
+        padding: 0 .2rem 0.2rem 0.2rem;
+        line-height: 1.5;
+        box-shadow: none;
+        border-top: none;
+      }
+      a {
+        font-weight: 700;
+      }
+    }
+  }
+
+  small.uthsc-figure-source{display:block;margin-top:1rem;}
+
+  .uthsc-figure {
+    width:100%;
+    img {
+      width: 100% !important;
+    }
+  }
+  .uthsc-figure-small-up-30 {
+    width: 30%;
+  }
+  .uthsc-figure-small-up-40 {
+    width: 40%;
+  }
+  .uthsc-figure-small-up-50 {
+    width: 50%;
+  }
+  .uthsc-figure-small-up-60 {
+    width: 60%;
+  }
   /* Add padding to floated images */
   .left img, figure.left {
     margin-right: 1em;
     float: left;
   }
-
   .right img, figure.right {
     margin-left: 1em;
     float: right;
   }
-  figure.right img {
-    margin: 0;
+  @include breakpoint(medium) {
+    .uthsc-figure-30 {
+      width: 30%;
+    }
+    .uthsc-figure-40 {
+      width: 40%;
+    }
+    .uthsc-figure-50 {
+      width: 50%;
+    }
+    .uthsc-figure-60 {
+      width: 60%;
+    }
   }
-  .image-40 {
-    width: 40%;
-  }
+
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -65,26 +114,6 @@
     & strong, b, em, i {
       font-weight: 400;
       font-style: normal;
-    }
-  }
-
-  figure {
-    border: 1px solid #bababa;
-    border-radius: 0 0 3px 3px;
-    border-radius: 3px;
-    overflow: hidden;
-    margin: 0;
-    max-width: 302px;
-    max-height: 302px;
-    figcaption {
-      padding: 5px;
-      font-size: 0.85em;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 300;
-      font-style: normal;
-      a {
-        font-weight: 700;
-      }
     }
   }
 
