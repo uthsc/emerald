@@ -29,35 +29,34 @@
     margin-bottom: 1rem;
   }
 
-  figure {
+  .uthsc-figure {
     margin: 0;
+    &.thumbnail {
+      figcaption {
+        box-shadow: none;
+        padding: 0;
+      }
+    }
     figcaption {
       font-size: 0.85em;
       font-family: "Open Sans", sans-serif;
       font-weight: 300;
       font-style: normal;
       line-height: 1.5;
-      &.thumbnail {
-        border: 1px solid #bbb;
-        padding: 0 .2rem 0.2rem 0.2rem;
-        line-height: 1.5;
-        box-shadow: none;
-        border-top: none;
-      }
+      box-shadow: 0 0 0 1px rgba(10,10,10,0.2) inset;
+      padding: 5px;
       a {
         font-weight: 700;
       }
     }
-  }
-
-  small.uthsc-figure-source{display:block;margin-top:1rem;}
-
-  .uthsc-figure {
     width:100%;
     img {
       width: 100% !important;
     }
   }
+
+  small.uthsc-figure-source{display:block;margin-top:1rem;}
+
   .uthsc-figure-small-up-30 {
     width: 30%;
   }
