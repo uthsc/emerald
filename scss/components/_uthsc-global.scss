@@ -31,6 +31,7 @@
 
   .left ~ ul {
     margin-left: 0;
+    clear: left;
   }
   .left ~ ul li {
     position: relative;
