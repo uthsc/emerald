@@ -29,6 +29,15 @@
     margin-bottom: 1rem;
   }
 
+  .left ~ ul {
+    margin-left: 0;
+  }
+  .left ~ ul li {
+    position: relative;
+    left: 1em;
+    padding-right: 1em;
+  }
+
   .uthsc-figure {
     margin: 0;
     &.thumbnail {
