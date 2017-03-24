@@ -89,6 +89,11 @@
     float: right;
   }
   @include breakpoint(medium) {
+
+    .left ~ ul {
+      clear: none;
+    }
+
     .uthsc-figure-30 {
       width: 30%;
     }
