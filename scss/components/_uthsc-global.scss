@@ -41,6 +41,7 @@
 
   .uthsc-figure {
     margin: 0;
+    background: $body-background;
     &.thumbnail {
       figcaption {
         box-shadow: none;
