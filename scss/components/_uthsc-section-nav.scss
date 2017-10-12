@@ -74,6 +74,7 @@ $uthsc-section-nav-border: scale-color($uthsc-breadcrumbs-background, $lightness
       &:hover {
         //background: $uthsc-blue-dark !important;
         background: darken($primary-color, 5%) !important;
+        background: darken($primary-color, 10%) !important; //darkened for breast-cancer-awareness
 
       }
     }
